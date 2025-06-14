@@ -1,0 +1,13 @@
+Project: DevOps Rails App Deployment
+
+Technologies:
+- Docker
+- Kubernetes (StatefulSet, Deployment, Ingress)
+- ArgoCD (GitOps)
+- Tekton Pipelines (CI/CD)
+
+Steps:
+1. Dockerize Rails app
+2. Deploy on K8s (Postgres + Rails)
+3. ArgoCD auto-sync
+4. Tekton builds and pushes to Docker Hub
